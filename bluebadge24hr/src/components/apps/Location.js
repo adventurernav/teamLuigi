@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
 const usePosition = () => {
-  const [position, setPosition] = useState({});
+  const [position, setPosition] = useState([]);
   const [error, setError] = useState(null);
   
   const onChange = ({coords}) => {
@@ -21,7 +21,7 @@ const usePosition = () => {
     let watcher = geo.watchPosition(onChange, onError);
     return () => geo.clearWatch(watcher);
   }, []);
-  return {...position, error};
+  return [{...position, error}];
 }
 
 export default usePosition;

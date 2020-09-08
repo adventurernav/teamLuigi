@@ -1,11 +1,13 @@
 import React from 'react';
 import Home from './home';
 import NasaApp from '../apps/Nasa'
+import {
+    Route,
+    Link, 
+    Switch
+} from 'react-router-dom';
 
-
-
-
-const sidebar =() => {
+const sidebar =(props) => {
     return(
         <div className = "sidebar">
             <div className = "sidebar-list list-unstyled">
@@ -17,10 +19,10 @@ const sidebar =() => {
                 </ul>
             </div>
             <div className="sidebar-route">
-                <switch>
+                <Switch>
                     <Route exact path = '/home'><Home /></Route>
                     <Route exact path = '/nasa'><NasaApp /></Route>
-                </switch>
+                </Switch>
             </div>
         </div>
     );
