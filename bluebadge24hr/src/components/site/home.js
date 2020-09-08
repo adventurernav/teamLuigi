@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom'; // What is this? 
 
 const Home = (props)=> {
     return (
@@ -21,4 +21,4 @@ const Home = (props)=> {
     );
 };
 
-export default home;
+export default Home;
