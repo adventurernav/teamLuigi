@@ -13,7 +13,7 @@ const Home = (props)=> {
                 <h1>Where are you?</h1>
                 
                     <p>
-                        <Link to='/resources'>Link</Link>
+                        
                     </p>
                 
             </div>
@@ -21,4 +21,4 @@ const Home = (props)=> {
     );
 };
 
-export default Home;
+export default home;
