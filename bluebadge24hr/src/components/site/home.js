@@ -13,7 +13,7 @@ const Home = ()=> {
                 <h1>Where are you?</h1>
                 
                     <p>
-                        <Link to='/resources'>Link</Link>
+                        
                     </p>
                 
             </div>
