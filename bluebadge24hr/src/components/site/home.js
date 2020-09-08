@@ -21,4 +21,4 @@ const Home = (props)=> {
     );
 };
 
-export default home;
+export default Home;

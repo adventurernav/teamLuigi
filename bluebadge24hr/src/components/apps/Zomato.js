@@ -1,3 +1,4 @@
+import NasaApp from './Nasa';
 
 
 
@@ -17,11 +18,14 @@ const fetchFood = () => {
     .then(res => res.json())
     .then(data => {
       setFood(data.response.docs)
-      // console.log(data)
+      // console.log(food);
     .catch(err => console.log(err));
     })
+
+
+
 
     })
   }
 
-  export default Zomato
+  export default Zomato;
