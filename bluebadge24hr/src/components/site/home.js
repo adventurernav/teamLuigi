@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-const Home = ()=> {
+const Home = (props)=> {
     return (
         <div className='main'>
             <div className='mainDiv'>
@@ -13,7 +13,7 @@ const Home = ()=> {
                 <h1>Where are you?</h1>
                 
                     <p>
-                        <Link to='/resources'>Link</Link>
+                        
                     </p>
                 
             </div>
@@ -21,4 +21,4 @@ const Home = ()=> {
     );
 };
 
-export default Home;
+export default home;
