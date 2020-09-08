@@ -1,6 +1,6 @@
-import React from 'react';
-
-import getLocation from './components/site/location'
+import React, { useState, useEffect} from 'react';
+import Nasa from './components/apps/Nasa'
+import GetLocation from './components/apps/Location'
 import Sidebar from './components/site/sidebar';
 
 import './App.css';
@@ -10,10 +10,14 @@ import './App.css';
 
 
 function App() {
+  const [lat, setLat] = useState('39.96443557739258');
+  const [lon, setLon] = useState('86.00927734375');
+
+
   return (
     <div className="App">
-      <getLocation />
-
+      <GetLocation setLat={setLat} setLon={setLon} />
+      
       <Sidebar/>
 
     </div>

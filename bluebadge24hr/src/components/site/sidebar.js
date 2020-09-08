@@ -1,6 +1,6 @@
 import React from 'react';
-import Home from './Home';
-
+import Home from './home';
+import NasaApp from '../apps/Nasa'
 
 
 
@@ -12,12 +12,14 @@ const sidebar =() => {
                 <ul className="sidebar-list list-unstyled">
 
                 <li><Link to = '/'>Home</Link> </li>
+                <li><Link to = '/nasa'>NASA</Link> </li>
 
                 </ul>
             </div>
             <div className="sidebar-route">
                 <switch>
                     <Route exact path = '/home'><Home /></Route>
+                    <Route exact path = '/nasa'><NasaApp /></Route>
                 </switch>
             </div>
         </div>
