@@ -1,5 +1,10 @@
 import React from 'react';
-import Home from './Home';
+import Home from './home';
+import{
+    Route,
+    Link,
+    Switch
+}from 'react-router-dom';
 
 
 
