@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-const Home = ()=> {
+const Home = (props)=> {
     return (
         <div className='main'>
             <div className='mainDiv'>
