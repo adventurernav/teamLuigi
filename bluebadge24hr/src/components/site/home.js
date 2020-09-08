@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom'; // What is this? 
 
 const Home = (props)=> {
     return (
@@ -13,7 +13,7 @@ const Home = (props)=> {
                 <h1>Where are you?</h1>
                 
                     <p>
-                        <Link to='/resources'>Link</Link>
+                        
                     </p>
                 
             </div>

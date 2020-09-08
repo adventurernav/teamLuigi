@@ -15,7 +15,7 @@ const Header = () => {
                 <Nav className='ml-auto' navbar>
                     <NavItem>
                         <NavLink href=''>
-                            
+                            {/* What if we put our change location and C/F toggler here? */}
                         </NavLink>
                     </NavItem>
                     </Nav>
