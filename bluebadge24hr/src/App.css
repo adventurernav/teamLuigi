@@ -37,9 +37,10 @@
   }
 }
 .sidebar {
-  display: flex;
-  background-color: #bbcadf; 
+  /* display: flex; */
+  background-color: #33cc59; 
   margin-top: 10px;
+  height: 100vh;
 }
 
 ul {
