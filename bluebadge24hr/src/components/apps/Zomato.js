@@ -1,14 +1,16 @@
-import NasaApp from './Nasa';
+import React from 'react';
 
 
 
-const [food, setFood]
+
+// const [food, setFood]
 
 
-const fetchFood = () => {
-  // let lat = '41.5531080000'
-  // let lon = '-8.4211480000'
-    fetch(`https://developers.zomato.com/api/v2.1/geocode?lat=${lat}&lon=${lon}`,{
+https://developers.zomato.com/api/v2.1/geocode?lat=39.791000&lon=-86.148003
+
+const fetchFood = (props) => {
+
+    fetch(`https://developers.zomato.com/api/v2.1/geocode?lat=${props.lat}&lon=${props.lon}`,{
       method: 'GET',
       headers: new Headers ({
         'Content-Type': 'application/json',
@@ -17,15 +19,36 @@ const fetchFood = () => {
 
     .then(res => res.json())
     .then(data => {
-      setFood(data.response.docs)
-      // console.log(food);
-    .catch(err => console.log(err));
+      // setFood(data.response.docs)
+      console.log(data);
     })
-
-
-
-
-    })
+    .catch(err => console.log(err))
   }
+
+  //   const foodMapper = () => {
+  //     return nearby_restaurants.map((name, cuisine) => {
+  //       return(
+  //         <div>
+  //         <h3>Nearby Restaurants</h3>
+  //         <hr/>
+  //         <Table>
+  //             <thead>
+  //                 <tr>
+  //                     <th>{nearby_restaurants.name}</th>
+  //                     <th>{nearby_restaurants.address}</th>
+  //                 </tr>
+  //             </thead>
+  //             <tbody>
+  //             {restaurantMapper()}
+  //             </tbody>
+  //         </Table>
+  //         <div/>
+  //       )
+  //     }
+  //   }
+
+    
+  // }
+}
 
   export default Zomato;
