@@ -19,7 +19,7 @@ console.log(props);
                 <li><Link to = '/'>Home</Link> </li>
                 {/* <li><Link to = '/nasa'>NASA</Link> </li> */}
                 {/* <li><Link to = '/weather'>Weather</Link> </li> */}
-                {/* <li><Link to = '/zomato'>Zomato</Link> </li> */}
+                <li><Link to = '/zomato'>Zomato</Link> </li>
 
 
                 </ul>
