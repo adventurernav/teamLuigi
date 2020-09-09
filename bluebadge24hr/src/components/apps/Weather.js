@@ -19,12 +19,16 @@ console.log(baseURL);
 
     // const toggleTemp = (celcius) =>{
     //     let celcius = temperature;
-    //     let farenheight=(temperature *9)/5;
+    //     let fahrenheit=(temperature *9)/5;
     // }
     return(
         <div>
-            <p>i compiled</p>
-        </div>
+            <h1>The Weather APP</h1>
+            <p>Find out the temperature of your location in fahrenheit or celcius.</p>
+            <p></p>
+            <button>Celcius/fahrenheit </button>
+            <br/>
+            
     )
 }
 
