@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+.sidebar {
+  display: flex;
+  background-color: #bbcadf; 
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Sidebar */
+.sidebar-list-styling{
+  padding-left: 50px;
+  padding-top: 15px;
+  width: 20%;
+  background-color: #78f0aa;
+  color: black;
+}
+
+.sidebar-list a{
+  color: blue;
+  padding: 0;
+}
+
+.sidebar-route{ 
+  flex: 1;
+  padding: '00px'; 
+}
