@@ -7,6 +7,8 @@ const Weather = (props) => {
 
 
 console.log(baseURL);
+
+
     fetch(baseURL)
     .then(response => {
         console.log(response);
@@ -25,5 +27,7 @@ console.log(baseURL);
         </div>
     )
 }
+
+
 
 export default Weather; 
