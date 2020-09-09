@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+.sidebar {
+  /* display: flex; */
+  background-color: #33cc59; 
+  margin-top: 10px;
+  height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Sidebar */
+.sidebar-list-styling{
+  padding-left: 50px;
+  padding-top: 15px;
+  width: 20%;
+  background-color: #16aa54;
+  color: black;
+}
+
+.sidebar-list a{
+  color: rgb(4, 4, 88);
+  padding: 0;
+}
+
+.sidebar-route{ 
+  flex: 1;
+  padding: '00px'; 
+}
