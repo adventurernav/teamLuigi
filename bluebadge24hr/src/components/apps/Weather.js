@@ -27,8 +27,8 @@ console.log(baseURL);
             <p>Find out the temperature of your location in fahrenheit or celcius.</p>
             <p></p>
             <button>Celcius/fahrenheit </button>
-            <br/>
-            
+           
+        </div>
     )
 }
 
