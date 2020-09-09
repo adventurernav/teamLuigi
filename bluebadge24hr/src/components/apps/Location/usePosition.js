@@ -28,9 +28,10 @@ const usePosition = (watch = false, settings = defaultSettings) => {
       setError('Geolocation is not supported');
       return;
     }
-
+    
     let watcher = null;
     if (watch) {
+      console.log('no geo locate')
       watcher =
         navigator.geolocation.watchPosition(onChange, onError, settings);
     } else {
