@@ -37,9 +37,10 @@
   }
 }
 .sidebar {
-  display: flex;
-  background-color: #bbcadf; 
+  /* display: flex; */
+  background-color: #33cc59; 
   margin-top: 10px;
+  height: 100vh;
 }
 
 ul {
@@ -51,12 +52,12 @@ ul {
   padding-left: 50px;
   padding-top: 15px;
   width: 20%;
-  background-color: #78f0aa;
+  background-color: #16aa54;
   color: black;
 }
 
 .sidebar-list a{
-  color: blue;
+  color: rgb(4, 4, 88);
   padding: 0;
 }
 

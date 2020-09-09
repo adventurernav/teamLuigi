@@ -9,16 +9,21 @@ const GetLocation = ({watch, settings, setLat, setLon}) => {
     const {latitude, longitude} = usePosition(watch, settings);
 
 // console.log(latitude, longitude);
-setLat(latitude)
-setLon(longitude)
+if (latitude){
+  setLat(latitude)
+}
+if (longitude){
+  setLon(longitude)
+}
+
   return (
     <>
-      <code>
+      {/* <code>
           Your Current Location: <br/>
         latitude: {latitude}<br/>
         longitude: {longitude}<br/>
-        {/* error: {error} */}
-      </code>
+        error: {error}
+      </code> */}
     </>
   );
 };
