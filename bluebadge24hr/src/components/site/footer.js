@@ -5,7 +5,7 @@ const Footer = ()=> {
     return (
         <footer>
             <Row>
-                <p>&copy; Team Luigi 2020</p>
+                <p>&copy; 0202 LuigigiuL 2020</p>
             </Row>
         </footer>
     )

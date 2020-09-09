@@ -5,7 +5,7 @@ import Home from './home';
 
 // import Weather from '../apps/Weather'
 
-// import Zomato from '../apps/Zomato'
+import Zomato from '../apps/Zomato/Zomato'
 import {
     Route,
     Link, 
@@ -23,7 +23,7 @@ console.log(props);
                 {/* <li><Link to = '/nasa'>NASA</Link> </li> */}
 
                 {/* <li><Link to = '/weather'>Weather</Link> </li> */}
-                {/* <li><Link to = '/zomato'>Zomato</Link> </li> */}
+                <li><Link to = '/zomato'>Zomato</Link> </li>
 
 
                 </ul>
@@ -37,7 +37,7 @@ console.log(props);
 
                     
                     {/* <Route exact path = '/weather'><Weather lon={props.lon} lat={props.lat} /></Route> */}
-                    {/* <Route exact path = '/zomato'><Zomato lon={props.lon} lat={props.lat} /></Route> */}
+                    <Route exact path = '/zomato'><Zomato lon={props.lon} lat={props.lat} /></Route>
 
                 </Switch>
 
