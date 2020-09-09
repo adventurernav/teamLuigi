@@ -10,7 +10,7 @@ const NasaApp = (props) => {
     // console.log(latitude);
     // let baseUrl = `https://api.nasa.gov/planetary/earth/imagery?lon=${x}&lat=${props.lat}&api_key=${key}`
     // console.log(baseUrl)
-    let altUrl = `https://api.nasa.gov/planetary/earth/imagery?lon=86.00&lat=39.96&date=2014-02-01&api_key=${key}`
+    let altUrl = `https://api.nasa.gov/planetary/earth/imagery?lon=100.75&lat=1.5&date=2014-02-01&api_key=DEMO_KEY`
     const fetchResults = () => {
         fetch(altUrl)
             .then(function (res) {
