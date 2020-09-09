@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      {/* <GetLocation setLat={setLat} setLon={setLon} /> */}
+      <GetLocation setLat={setLat} setLon={setLon} />
       <Sidebar lon={lon} lat={lat} />
       <Home />
       </BrowserRouter>
